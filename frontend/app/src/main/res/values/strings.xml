@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Banking App</string>
+
+    <!-- Splash -->
+    <string name="splash_subtitle">Votre banque, simplement.</string>
+
+    <!-- Signup -->
+    <string name="signup_title">Creer un compte</string>
+    <string name="hint_full_name">Nom complet</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Telephone</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_confirm_password">Confirmer le mot de passe</string>
+    <string name="action_signup">S\'inscrire</string>
+    <string name="already_have_account">Deja un compte ? Se connecter</string>
+
+    <!-- OTP -->
+    <string name="otp_title">Verification OTP</string>
+    <string name="otp_sent_to">Un code a ete envoye a : %1$s</string>
+    <string name="hint_otp">Code a 6 chiffres</string>
+    <string name="action_verify">Verifier</string>
+    <string name="resend_code">Renvoyer le code</string>
+    <string name="otp_expires_in">Code expire dans %1$d secondes</string>
+    <string name="otp_expired">Code expire. Veuillez en demander un nouveau.</string>
+    <string name="otp_resent">Nouveau code envoye</string>
+    <string name="account_activated">Compte active avec succes</string>
+
+    <!-- Login -->
+    <string name="login_title">Connexion</string>
+    <string name="action_login">Se connecter</string>
+    <string name="no_account">Pas de compte ? S\'inscrire</string>
+    <string name="remember_me">Se souvenir de moi</string>
+    <string name="welcome">Bienvenue</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Mon compte</string>
+    <string name="hello_user">Bonjour, %1$s</string>
+    <string name="account_label">Numero : %1$s</string>
+    <string name="balance_label">Solde</string>
+    <string name="quick_actions">Actions rapides</string>
+    <string name="transfer">Virement</string>
+    <string name="history">Historique</string>
+    <string name="deposit">Depot</string>
+    <string name="recent_transactions">Dernieres transactions</string>
+    <string name="logout">Deconnexion</string>
+    <string name="no_transactions">Aucune transaction</string>
+
+    <!-- Dialogs -->
+    <string name="transfer_title">Nouveau virement</string>
+    <string name="deposit_title">Effectuer un depot</string>
+    <string name="hint_to_account">Numero compte destinataire (BANK-XXXXXXXX)</string>
+    <string name="hint_amount">Montant</string>
+    <string name="hint_description">Description (optionnel)</string>
+    <string name="send">Envoyer</string>
+    <string name="deposit_action">Deposer</string>
+    <string name="cancel">Annuler</string>
+    <string name="transfer_success">Virement effectue avec succes</string>
+    <string name="deposit_success">Depot effectue avec succes</string>
+
+    <!-- Profil -->
+    <string name="profile_title">Mon profil</string>
+    <string name="personal_info">Informations personnelles</string>
+    <string name="account_label_short">Numero de compte</string>
+    <string name="save_changes">Enregistrer</string>
+    <string name="profile_updated">Profil mis a jour</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="confirm_new_password">Confirmer le nouveau mot de passe</string>
+    <string name="password_changed">Mot de passe modifie</string>
+    <string name="confirm">Confirmer</string>
+
+    <!-- Beneficiaires -->
+    <string name="beneficiaries">Beneficiaires</string>
+    <string name="beneficiaries_title">Mes beneficiaires</string>
+    <string name="add_beneficiary">Ajouter un beneficiaire</string>
+    <string name="hint_label">Libelle (ex: Maman, EDF)</string>
+    <string name="add">Ajouter</string>
+    <string name="delete">Supprimer</string>
+    <string name="beneficiary_added">Beneficiaire ajoute</string>
+    <string name="beneficiary_deleted">Beneficiaire supprime</string>
+    <string name="delete_beneficiary_confirm">Supprimer le beneficiaire \"%1$s\" ?</string>
+    <string name="no_beneficiaries">Aucun beneficiaire enregistre.\nCliquez sur + pour en ajouter un.</string>
+    <string name="transfer_to_label">Virement vers : %1$s</string>
+    <string name="profile">Profil</string>
+
+    <!-- Statistiques -->
+    <string name="statistics">Statistiques</string>
+    <string name="statistics_title">Mes statistiques</string>
+    <string name="stats_income">Revenus</string>
+    <string name="stats_expense">Depenses</string>
+    <string name="stats_net">Solde net</string>
+    <string name="stats_avg">Moyenne</string>
+    <string name="stats_count">Transactions</string>
+    <string name="stats_largest">Top operation</string>
+    <string name="stats_top_expenses">Top depenses</string>
+    <string name="stats_top_incomes">Top revenus</string>
+    <string name="stats_this_month">Ce mois-ci</string>
+    <string name="stats_distribution">Repartition revenus / depenses</string>
+    <string name="stats_month_days">Sur les %1$d derniers jours</string>
+
+    <!-- Erreurs -->
+    <string name="signup_success">Inscription reussie ! Verifiez votre email.</string>
+    <string name="error_name_required">Nom complet requis</string>
+    <string name="error_invalid_email">Email invalide</string>
+    <string name="error_phone_required">Telephone requis</string>
+    <string name="error_password_short">Mot de passe : 6 caracteres minimum</string>
+    <string name="error_password_mismatch">Les mots de passe ne correspondent pas</string>
+    <string name="error_password_required">Mot de passe requis</string>
+    <string name="error_otp_length">Le code doit contenir 6 chiffres</string>
+    <string name="error_fields_required">Champs obligatoires manquants</string>
+    <string name="error_invalid_amount">Montant invalide</string>
+    <string name="error_network">Erreur reseau</string>
+</resources>

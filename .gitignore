@@ -1,0 +1,41 @@
+# --- Exclusions specifiques au depot ---
+rapport/
+presentation/
+
+# --- Backend (Maven / Java) ---
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/HELP.md
+backend/.idea/
+backend/*.iml
+backend/.vscode/
+backend/dependency-reduced-pom.xml
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# --- Frontend (Gradle / Android) ---
+frontend/.gradle/
+frontend/build/
+frontend/captures/
+frontend/.idea/
+frontend/local.properties
+frontend/*.iml
+frontend/.cxx/
+frontend/app/build/
+frontend/app/release/
+frontend/app/*.iml
+frontend/.kotlin/
+
+# --- Logs / temporaires ---
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Secrets ---
+*.env
+.env.local
+secrets.properties
